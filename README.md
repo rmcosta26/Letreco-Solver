@@ -1,6 +1,7 @@
 # Letreco-Solver
 
-Programa desenvolvido para aconselhar jogar ao jogar o jogo Letreco, com as palavras e seus pontos.
+Programa desenvolvido para aconselhar usuário ao jogar o jogo Letreco, com as palavras e seus pontos.
+
 
 Matemática dos pontos embasada de acordo com a Teoria da Informação.
 Referências:

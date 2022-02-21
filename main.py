@@ -158,5 +158,4 @@ with open('palavras-letreco.pickle', 'rb') as f:
 with open('rate_sorted.pickle', 'rb') as f:
     rate_sorted = pickle.load(f)
 
-
 run_manual(l_database)

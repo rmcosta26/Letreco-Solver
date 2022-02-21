@@ -143,8 +143,8 @@ def run_manual(database):
     data = database
     # print(rate_sorted)
     for j in range(6):
-        guess = str(input()).upper()
-        result = str(input()).lower()
+        guess = str(input('Palpite: ')).upper()
+        result = str(input('Resposta: ')).lower()
         data = receive_info(data, guess, result)
         r = sorted_rate(possible_match_rate(data))
         print(return_sorted_bylen(r, 5))

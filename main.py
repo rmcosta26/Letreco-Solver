@@ -68,10 +68,9 @@ def filter_lettertrue(database, letter):
 
 
 def receive_info(database, guess, result):
-    data = []
     data = database
     for i in range(5):
-            # print(i)
+
         if result[i] is 'y':
             data = filter_lettertrue(data, guess[i])
             data = filter_postrue(data, guess[i], i)
